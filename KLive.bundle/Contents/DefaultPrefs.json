@@ -1,0 +1,108 @@
+[
+	{
+		"id": "VERSION",
+		"label": "VERSION : 0.1.0",
+		"type": "bool",
+		"default": ""
+	},
+	{
+		"id": "MBC_ID",
+		"label": "MBC ID - v0.1.0",
+		"type": "text",
+		"default": ""
+	},
+	{
+		"id": "MBC_PW",
+		"label": "MBC PW",
+		"type": "text",
+		"option":   "hidden",
+		"default": ""
+	},
+	{
+		"id": "POOQ_ID",
+		"label": "푹 ID",
+		"type": "text",
+		"default": ""
+	},
+	{
+		"id": "POOQ_PW",
+		"label": "푹 PW",
+		"type": "text",
+		"option":   "hidden",
+		"default": ""
+	},
+	{
+		"id": "POOQ_QUALITY",
+		"label": "푹 화질",
+		"type": "enum",
+		"values":   ["5000", "2000", "1000", "500"],
+		"default": "1000"
+	},
+	{
+		"id": "TVING_ID",
+		"label": "티빙 ID",
+		"type": "text",
+		"default": ""
+	},
+	{
+		"id": "TVING_PW",
+		"label": "티빙 PW",
+		"type": "text",
+		"option":   "hidden",
+		"default": ""
+	},
+	{
+		"id": "TVING_LOGIN_TYPE",
+		"label": "티빙 로그인 타입",
+		"type": "enum",
+		"values":   ["CJONE", "TVING"],
+		"default": "CJONE"
+	},
+	{
+		"id": "TVING_QUALITY",
+		"label": "티빙 화질",
+		"type": "enum",
+		"values":   ["stream50", "stream40", "stream30"],
+		"default": "stream30"
+	},
+	{
+		"id": "OKSUSU_ID",
+		"label": "옥수수 ID",
+		"type": "text",
+		"default": ""
+	},
+	{
+		"id": "OKSUSU_PW",
+		"label": "옥수수 PW",
+		"type": "text",
+		"option":   "hidden",
+		"default": ""
+	},
+	{
+		"id": "OKSUSU_QUALITY",
+		"label": "옥수수 화질",
+		"type": "enum",
+		"values":   ["FHD", "HD", "SD"],
+		"default": "SD"
+	},
+	{
+		"id": "OLLEH_ID",
+		"label": "올레 ID",
+		"type": "text",
+		"default": ""
+	},
+	{
+		"id": "OLLEH_PW",
+		"label": "올레 PW",
+		"type": "text",
+		"option":   "hidden",
+		"default": ""
+	},
+	{
+		"id": "OLLEH_QUALITY",
+		"label": "올레 화질",
+		"type": "enum",
+		"values":   ["4000", "2000", "1000"],
+		"default": "1000"
+	}
+]

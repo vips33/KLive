@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.klive" name="K LIVE" version="0.1.0" provider-name="soju6jan">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="kodi.py">
+    	<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">K LIVE</summary>
+		<summary lang="kr">K LIVE</summary>
+		<description lang="en">K LIVE</description>
+		<description lang="kr">K LIVE</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>

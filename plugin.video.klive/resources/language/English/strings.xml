@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="30101">MBC ID</string>
+	<string id="30102">MBC PW</string>
+	<string id="30103">POOQ ID</string>
+	<string id="30104">POOQ PW</string>
+	<string id="30105">POOQ QUALITY</string>
+	<string id="30106">5000</string>
+	<string id="30107">2000</string>
+	<string id="30108">1000</string>
+	<string id="30109">500</string>
+	<string id="30110">TVING ID</string>
+	<string id="30111">TVING PW</string>
+	<string id="30112">TVING LOGIN TYPE</string>
+	<string id="30113">CJONE</string>
+	<string id="30114">TVING</string>
+	<string id="30115">TVING QUALITY</string>
+	<string id="30116">FHD</string>
+	<string id="30117">HD</string>
+	<string id="30118">SD</string>
+	<string id="30119">OKSUSU ID</string>
+	<string id="30120">OKSUSU PW</string>
+	<string id="30121">OKSUSU QUALITY</string>	
+	<string id="30122">OLLEH ID</string>
+	<string id="30123">OLLEH PW</string>
+	<string id="30124">OLLEH QUALITY</string>	
+	<string id="30125">RADIO2.XML file URL</string>	
+</strings>
+

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+if [ "x$1" = "x" ]; then
+     wget -q -O /epg2xml/klive.xml http://soju6jan.synology.me/klive/klive.xml
+     cat /epg2xml/klive.xml
+    exit 0
+fi
+
+case "$1" in
+    --description)
+    echo "KLIVE EPG GRABBER"
+    ;;
+    --version)
+    echo "1.0"
+    ;;
+    --capabilities)
+    echo "baseline"
+    ;;
+esac

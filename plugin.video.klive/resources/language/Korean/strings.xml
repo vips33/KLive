@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="30101">MBC ID</string>
+	<string id="30102">MBC PW</string>
+	<string id="30103">푹 ID</string>
+	<string id="30104">푹 PW</string>
+	<string id="30105">푹 화질</string>
+	<string id="30106">5000</string>
+	<string id="30107">2000</string>
+	<string id="30108">1000</string>
+	<string id="30109">500</string>
+	<string id="30110">티빙 ID</string>
+	<string id="30111">티빙 PW</string>
+	<string id="30112">티빙 로그인 타입</string>
+	<string id="30113">CJONE</string>
+	<string id="30114">TVING</string>
+	<string id="30115">티빙 화질</string>
+	<string id="30116">FHD</string>
+	<string id="30117">HD</string>
+	<string id="30118">SD</string>
+	<string id="30119">옥수수 ID</string>
+	<string id="30120">옥수수 PW</string>
+	<string id="30121">옥수수 화질</string>	
+	<string id="30122">올레 ID</string>
+	<string id="30123">올레 PW</string>
+	<string id="30124">올레 화질</string>	
+	<string id="30125">RADIO2.XML 파일 경로</string>	
+</strings>
+
