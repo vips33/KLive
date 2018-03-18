@@ -36,7 +36,7 @@ POOQ_QUALITY		= '1000'		# 5000 2000 1000 500
 
 # 티빙
 TVING_ID		= ''
-TVING_PW		= '
+TVING_PW		= ''
 TVING_QUALITY		= 'stream30'		# stream50 stream40 stream30
 TVING_LOGIN_TYPE	= 'CJONE'		# CJONE TVING
 
