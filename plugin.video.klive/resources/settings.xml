@@ -20,6 +20,6 @@
 	<setting id="OLLEH_PW" type="text" option="hidden" label="30123" default="" />
 	<setting id="OLLEH_QUALITY" type="enum" label="30124" lvalues="30116|30117|30118" />
 	<setting type="sep"/>
-	<setting id="RADIO2_XML" type="text" label="30125" default="https://soju6jan.github.io/radio2" />
+	<setting id="RADIO2_XML" type="text" label="30125" default="https://soju6jan.github.io/radio2.xml" />
 	<setting type="sep"/>
 </settings>

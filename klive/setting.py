@@ -54,4 +54,4 @@ OLLEH_QUALITY		= '1000'		# 4000 2000 1000
 
 
 # RADIO2 xml 파일 경로
-RADIO2_XML		= 'https://soju6jan.github.io/radio2'
+RADIO2_XML		= 'https://soju6jan.github.io/radio2.xml'
