@@ -103,11 +103,11 @@ class OKSUSU:
 		try:
 			js = self.GetURLJSON(code)
 			info = {}
-			info['FHD'] = js['streamUrl']['hlsUrlPhoneFHD'] if 'hlsUrlPhoneFHD' in js['streamUrl'] else None
-			info['HD'] = js['streamUrl']['hlsUrlPhoneHD'] if 'hlsUrlPhoneHD' in js['streamUrl'] else None
-			info['SD'] = js['streamUrl']['hlsUrlPhoneSD'] if 'hlsUrlPhoneSD' in js['streamUrl'] else None
-			info['AUTO'] = js['streamUrl']['hlsUrlAUTO'] if 'hlsUrlAUTO' in js['streamUrl'] else None
-			info['PCFHD'] = js['streamUrl']['hlsUrlPcFHDAuto'] if 'hlsUrlPcFHDAuto' in js['streamUrl'] else None
+			info['FHD'] = js['streamUrl']['urlFHD'] if 'urlFHD' in js['streamUrl'] else None
+			info['HD'] = js['streamUrl']['urlHD'] if 'urlHD' in js['streamUrl'] else None
+			info['SD'] = js['streamUrl']['urlSD'] if 'urlSD' in js['streamUrl'] else None
+			info['AUTO'] = js['streamUrl']['urlAUTO'] if 'urlAUTO' in js['streamUrl'] else None
+			#info['PCFHD'] = js['streamUrl']['hlsUrlPcFHDAuto'] if 'hlsUrlPcFHDAuto' in js['streamUrl'] else None
 			if 'nvodHlsUrlList' in js['streamUrl'] and js['streamUrl']['nvodHlsUrlList'] is not None:
 				vods = js['streamUrl']['nvodHlsUrlList']
 				if len(vods) > 0:
