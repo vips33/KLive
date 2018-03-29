@@ -29,8 +29,18 @@ def WriteFile(filename, data ):
 		with open(filename, "w") as f:
 			f.write( unicode(data) )
 		f.close()
+		return
 	except Exception as e:
-		#print(e)
+		#print('W11:%s' % e)
+		pass
+	try:
+		with open(filename, "w", encoding='utf8') as f:
+		#with open(filename, "w") as f:
+			f.write( data )
+		f.close()
+		return
+	except Exception as e:
+		#print('W22:%s' % e)
 		pass
 
 def GetFilename(filename):
